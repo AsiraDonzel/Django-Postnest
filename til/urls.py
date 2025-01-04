@@ -15,12 +15,14 @@ Including another URLconf
     2. Add a URL to urlpatterns:  path('blog/', include('blog.urls'))
 """
 from django.contrib import admin
-from django.urls import include, path
+from django.urls import include
+from django.urls import path
 from feed import urls as feed_urls
 
 urlpatterns = [
     path('admin/', admin.site.urls),
-    path("", include((feed_urls, "feed"), namespace="feed")),  
+    path("", include(feed_urls, namespace="feed")),
     path("", include("allauth.urls")),
-]
+] 
+
 
