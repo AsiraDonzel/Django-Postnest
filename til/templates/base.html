@@ -62,7 +62,9 @@
                         </svg>
                     </div>
                     <hr>
-                    <div>{# TODO: Add the ajax form #}</div>
+                    <div class="w-full">
+                        <textarea class="border-2 border-blue-500 my-4 w-full js-post-text" placeholder="Enter your post" rows="3" maxlength="255" data-post-url="{% url 'feed:new_post' %}"></textarea>
+                    </div>
                     <hr>
                     <div class="ml-auto">
                         <div class="my-3">
