@@ -26,12 +26,16 @@ A Django-based web application where users can create profiles, upload text and 
    git clone https://github.com/yourusername/your-repo-name.git
    cd your-repo-name
 2. Install dependencies using Pipenv:
+    ```bash
    pipenv install
 3. Activate the virtual environment:
+    ```bash
    pipenv shell
 4. Apply migrations:
+    ```bash
    python manage.py migrate
 5. Run the development server:
+    ```bash
    python manage.py runserver
 6. Open your browser and visit http://127.0.0.1:8000
 
