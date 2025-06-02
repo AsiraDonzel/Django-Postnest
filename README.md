@@ -23,7 +23,7 @@ A Django-based web application where users can create profiles, upload text and 
 1. Clone the repository:
 
    ```bash
-   git clone https://github.com/yourusername/your-repo-name.git
+   git clone https://github.com/AsiraDonzel/Django-Postnest.git
    cd your-repo-name
 2. Install dependencies using Pipenv:
     ```bash
